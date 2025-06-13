@@ -1,4 +1,4 @@
-# Flapi - customerName projectName - BackEnd
+# Flapi - NOM PRENOM MonApplication - BackEnd
 
 ## 🛠 Tech Stack
 
@@ -70,9 +70,9 @@ Pour plus de détails sur les conventions de commit, consultez : [Conventional C
 
 ## 📚 Domains of different environments
 
-- Development-Remote : https://dev.example.api.flapi.org
-- Staging : https://staging.example.api.flapi.org
-- Production : https://example.api.flapi.org
+- Development-Remote : https://dev.monsousdomain.api.flapi.org
+- Staging : https://staging.monsousdomain.api.flapi.org
+- Production : https://monsousdomain.api.flapi.org
 
 <br /><br /><br /><br />
 
@@ -81,7 +81,7 @@ Pour plus de détails sur les conventions de commit, consultez : [Conventional C
 1. Clone the project repository using the following commands :
 
 ```bash
-git clone git@github.com:FlapiBusiness/flapi-customerName-projectName-backend.git
+git clone git@github.com:FlapiBusiness/flapi-NOM PRENOM-MonApplication-backend.git
 ```
 
 2. Steps by Platform :
@@ -234,7 +234,7 @@ Ce projet utilise le package `@foadonis/crypt` pour stocker et gérer de manièr
 
 - Les fichiers **`.env` et `.env.*`** contenant des variables chiffrées peuvent être versionnés.
 - Le fichier **`.env.keys`** contenant les clés privées de déchiffrement ne doit jamais être versionné.
-- Un fichier **`.env.keys.example`** est fourni pour montrer la structure des clés, sans valeurs réelles.
+- Un fichier **`.env.keys.monsousdomain`** est fourni pour montrer la structure des clés, sans valeurs réelles.
 
 ### **Accès sécurisé aux clés :**
 

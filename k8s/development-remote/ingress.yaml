@@ -1,24 +1,24 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: dev-customerName-projectName-backend-ingress
-  namespace: dev-customerName-projectName-backend
+  name: dev-NOM PRENOM-MonApplication-backend-ingress
+  namespace: dev-NOM PRENOM-MonApplication-backend
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt-production
 spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - dev.example.api.flapi.org
-      secretName: dev-customerName-projectName-backend-tls
+        - dev.monsousdomain.api.flapi.org
+      secretName: dev-NOM PRENOM-MonApplication-backend-tls
   rules:
-    - host: dev.example.api.flapi.org
+    - host: dev.monsousdomain.api.flapi.org
       http:
         paths:
           - pathType: Prefix
             path: '/'
             backend:
               service:
-                name: dev-customerName-projectName-backend-service
+                name: dev-NOM PRENOM-MonApplication-backend-service
                 port:
                   number: 3333
